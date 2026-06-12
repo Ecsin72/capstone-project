@@ -75,7 +75,7 @@ def wordle_guess(guess, target, tracker):
             target: the randomised target word
             tracker: list of two sublists, guesses so far and their corresponding outputs"""
     while True:
-        guess = input("Please make a guess of a 5 letter word").lower()
+        guess = input("Please make a guess of a 5 letter word: ").lower()
         output = Wordle(target, guess)
         tracker[0].append(guess)
         tracker[1].append(output)
