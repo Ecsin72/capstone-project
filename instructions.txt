@@ -1,0 +1,16 @@
+~ Welcome to Wordle! ~
+
+RULES
+1. There is a random hidden 5 letter word stored when you start a game.
+2. You must guess a 5 letter word to try and find the secret word.
+3. Feedback is given as follows:
+	R = The letter is not in the word at all.
+	Y = The letter is in the word but not in this position.
+	G = This letter is correct and in the correct position.
+4. After you receive your feedback, guess another word using the previous output(s) to guide your next guess.
+5. If you are correct the console will let you know, if not, keep guessing!
+
+INSTRUCTIONS
+When you are ready to start, type in the command line:
+	$ python3 project-code.py
+To initialize your own game of Wordle!
